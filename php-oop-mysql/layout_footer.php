@@ -7,5 +7,13 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+<?php
+    include_once "config/database.php";
+    $db = new Database();
+    $db->getConnection();
+//    $db->insert();
+?>
+
 </body>
 </html>

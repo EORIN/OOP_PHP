@@ -17,8 +17,14 @@ class Database {
         } catch(PDOException $exception) {
             echo "Ошибка соединения: " . $exception->getMessage();
         }
-
         return $this->conn;
     }
+
+//    public function insert() {
+//
+//        $query = "insert into php_oop values (id, 'TEST')";
+//        $this->conn->query($query);
+//
+//    }
 }
 ?>

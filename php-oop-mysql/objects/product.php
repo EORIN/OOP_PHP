@@ -18,6 +18,23 @@ class Product {
     }
 
     // метод создания товара
+    function readAll($from_record_num, $records_per_page) {
+
+        // запрос MySQL
+        $query = "SELECT
+                id, name, description, price, category_id
+            FROM
+                " . $this->table_name . "
+            ORDER BY
+                name ASC
+            LIMIT
+                {$from_record_num}, {$records_per_page}";
+
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute();
+
+        return $stmt;
+    }
     function create() {
 
         // запрос MySQL для вставки записей в таблицу БД «products»
@@ -48,4 +65,20 @@ class Product {
         }
 
     }
+    // используется для пагинации товаров
+    public function countAll() {
+
+        // запрос MySQL
+        $query = "SELECT id FROM " . $this->table_name . "";
+
+        $stmt = $this->conn->prepare( $query );
+        $stmt->execute();
+
+        $num = $stmt->rowCount();
+
+        return $num;
+    }
+
 }
+
+?>

@@ -24,6 +24,7 @@
         <div class="page-header">
             <h1>
                 <?php 
-                    echo 'Hello world!'; 
+                    echo 'Hello world!';
+//                    echo <table> f </table>;
                 ?></h1>
         </div>

@@ -93,6 +93,10 @@ echo "</select>";
         </table>
     </form>
 
+
+
 <?php // подвал
+
 require_once "layout_footer.php";
 ?>
+

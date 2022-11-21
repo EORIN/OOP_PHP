@@ -1,0 +1,531 @@
+[Tue Jul 26 16:43:43.304302 2022] [mpm_winnt:notice] [pid 4180:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Jul 26 16:43:43.304302 2022] [mpm_winnt:notice] [pid 4180:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Jul 26 16:43:43.304302 2022] [core:notice] [pid 4180:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jul 26 16:43:43.304302 2022] [mpm_winnt:notice] [pid 4180:tid 384] AH00418: Parent: Created child process 5860
+[Tue Jul 26 16:43:43.773054 2022] [mpm_winnt:notice] [pid 5860:tid 448] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 26 16:56:16.371293 2022] [php:warn] [pid 5860:tid 1112] [client ::1:64592] PHP Warning:  Undefined variable $page_title in C:\\localhost\\php-oop-mysql\\layout_header.php on line 9, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 16:56:42.711684 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64594] PHP Warning:  Undefined variable $page_title in C:\\localhost\\php-oop-mysql\\layout_header.php on line 9, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 16:56:43.470365 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64594] PHP Warning:  Undefined variable $page_title in C:\\localhost\\php-oop-mysql\\layout_header.php on line 9, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 16:56:49.756183 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64594] PHP Warning:  Undefined variable $page_title in C:\\localhost\\php-oop-mysql\\layout_header.php on line 9, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:00:09.968347 2022] [php:error] [pid 5860:tid 1112] [client ::1:64626] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:24:54.405735 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64689] PHP Warning:  include_once(config/database.php): Failed to open stream: No such file or directory in C:\\localhost\\php-oop-mysql\\create_product.php on line 3, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:24:54.405735 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64689] PHP Warning:  include_once(): Failed opening 'config/database.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\php-oop-mysql\\create_product.php on line 3, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:24:54.405735 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64689] PHP Warning:  include_once(objects/product.php): Failed to open stream: No such file or directory in C:\\localhost\\php-oop-mysql\\create_product.php on line 4, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:24:54.405735 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64689] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\php-oop-mysql\\create_product.php on line 4, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:24:54.405735 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64689] PHP Warning:  include_once(objects/category.php): Failed to open stream: No such file or directory in C:\\localhost\\php-oop-mysql\\create_product.php on line 5, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:24:54.405735 2022] [php:warn] [pid 5860:tid 1104] [client ::1:64689] PHP Warning:  include_once(): Failed opening 'objects/category.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\php-oop-mysql\\create_product.php on line 5, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:24:54.408246 2022] [php:error] [pid 5860:tid 1104] [client ::1:64689] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\\localhost\\php-oop-mysql\\create_product.php:8\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\create_product.php on line 8, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:28:47.586910 2022] [php:error] [pid 5860:tid 1112] [client ::1:64693] PHP Parse error:  syntax error, unexpected identifier "form", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\create_product.php on line 53, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:28:54.258853 2022] [php:error] [pid 5860:tid 1112] [client ::1:64693] PHP Parse error:  syntax error, unexpected identifier "form", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\create_product.php on line 53, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:30:07.090449 2022] [php:error] [pid 5860:tid 1104] [client ::1:64696] PHP Parse error:  syntax error, unexpected identifier "form", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\create_product.php on line 73, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:31:31.309475 2022] [php:warn] [pid 5860:tid 1112] [client ::1:64707] PHP Warning:  include_once(config/database.php): Failed to open stream: No such file or directory in C:\\localhost\\php-oop-mysql\\create_product.php on line 3, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:31:31.309475 2022] [php:warn] [pid 5860:tid 1112] [client ::1:64707] PHP Warning:  include_once(): Failed opening 'config/database.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\php-oop-mysql\\create_product.php on line 3, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:31:31.310475 2022] [php:error] [pid 5860:tid 1112] [client ::1:64707] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\\localhost\\php-oop-mysql\\create_product.php:8\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\create_product.php on line 8, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:32:17.385705 2022] [php:error] [pid 5860:tid 1104] [client ::1:64708] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\\localhost\\php-oop-mysql\\objects\\category.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\create_product.php(70): Category->read()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\category.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:32:50.921332 2022] [php:error] [pid 5860:tid 1112] [client ::1:64709] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\\localhost\\php-oop-mysql\\objects\\category.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\create_product.php(70): Category->read()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\category.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:32:52.717658 2022] [php:error] [pid 5860:tid 1112] [client ::1:64709] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\\localhost\\php-oop-mysql\\objects\\category.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\create_product.php(70): Category->read()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\category.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:32:59.038349 2022] [php:error] [pid 5860:tid 1104] [client ::1:64712] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\\localhost\\php-oop-mysql\\objects\\category.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\create_product.php(70): Category->read()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\category.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Jul 26 17:33:39.879749 2022] [php:error] [pid 5860:tid 1104] [client ::1:64717] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'test' for column 'price' at row 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:37:08.645852 2022] [php:error] [pid 5860:tid 1112] [client ::1:64744] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'test' for column 'price' at row 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:37:10.822588 2022] [php:error] [pid 5860:tid 1112] [client ::1:64744] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'test' for column 'price' at row 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:38:30.768869 2022] [php:error] [pid 5860:tid 1104] [client ::1:64749] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'test' for column 'price' at row 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:38:33.908540 2022] [php:error] [pid 5860:tid 1104] [client ::1:64749] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'price' at row 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:38:41.953448 2022] [php:error] [pid 5860:tid 1104] [client ::1:64749] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'f' for column 'price' at row 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:40:51.079149 2022] [php:error] [pid 5860:tid 1112] [client ::1:64769] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';\r\n                SET\r\n                    name='f', price='f', description='f'' at line 2 in C:\\localhost\\php-oop-mysql\\objects\\product.php:47\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(47): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 47, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:42:28.328066 2022] [php:error] [pid 5860:tid 1104] [client ::1:64782] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:45:38.060826 2022] [php:error] [pid 5860:tid 1112] [client ::1:64785] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='f', price='f', description='f', category_id='3', created='2022-07-26 14:45' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:46:10.535731 2022] [php:error] [pid 5860:tid 1104] [client ::1:64786] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='f', price='f', description='f', category_id='3', created='2022-07-26 14:46' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:46:12.789510 2022] [php:error] [pid 5860:tid 1104] [client ::1:64786] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='f', price='f', description='f', category_id='3', created='2022-07-26 14:46' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:46:14.348807 2022] [php:error] [pid 5860:tid 1104] [client ::1:64786] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 17:46:19.629015 2022] [php:error] [pid 5860:tid 1112] [client ::1:64789] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='f', price='f', description='f', category_id='3', created='2022-07-26 14:46' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Jul 26 18:05:03.849102 2022] [mpm_winnt:notice] [pid 4180:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 26 18:05:05.880448 2022] [mpm_winnt:notice] [pid 5860:tid 448] AH00364: Child: All worker threads have exited.
+[Tue Jul 26 18:05:05.896077 2022] [mpm_winnt:notice] [pid 4180:tid 384] AH00430: Parent: Child process 5860 exited successfully.
+[Wed Jul 27 09:35:27.463049 2022] [mpm_winnt:notice] [pid 4084:tid 396] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Jul 27 09:35:27.465048 2022] [mpm_winnt:notice] [pid 4084:tid 396] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Jul 27 09:35:27.465048 2022] [core:notice] [pid 4084:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jul 27 09:35:27.466049 2022] [mpm_winnt:notice] [pid 4084:tid 396] AH00418: Parent: Created child process 6204
+[Wed Jul 27 09:35:27.941048 2022] [mpm_winnt:notice] [pid 6204:tid 416] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 28 18:06:06.464544 2022] [mpm_winnt:notice] [pid 4084:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 28 18:06:08.480402 2022] [mpm_winnt:notice] [pid 6204:tid 416] AH00364: Child: All worker threads have exited.
+[Thu Jul 28 18:06:08.496025 2022] [mpm_winnt:notice] [pid 4084:tid 396] AH00430: Parent: Child process 6204 exited successfully.
+[Fri Jul 29 14:08:13.104566 2022] [mpm_winnt:notice] [pid 4172:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Jul 29 14:08:13.105565 2022] [mpm_winnt:notice] [pid 4172:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Jul 29 14:08:13.105565 2022] [core:notice] [pid 4172:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jul 29 14:08:13.106563 2022] [mpm_winnt:notice] [pid 4172:tid 388] AH00418: Parent: Created child process 6176
+[Fri Jul 29 14:08:13.563562 2022] [mpm_winnt:notice] [pid 6176:tid 404] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 29 17:04:25.986235 2022] [mpm_winnt:notice] [pid 4172:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jul 29 17:04:28.017723 2022] [mpm_winnt:notice] [pid 6176:tid 404] AH00364: Child: All worker threads have exited.
+[Fri Jul 29 17:04:28.033348 2022] [mpm_winnt:notice] [pid 4172:tid 388] AH00430: Parent: Child process 6176 exited successfully.
+[Mon Aug 01 14:46:25.499716 2022] [mpm_winnt:notice] [pid 4252:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Aug 01 14:46:25.500715 2022] [mpm_winnt:notice] [pid 4252:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Aug 01 14:46:25.500715 2022] [core:notice] [pid 4252:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Aug 01 14:46:25.501716 2022] [mpm_winnt:notice] [pid 4252:tid 384] AH00418: Parent: Created child process 6272
+[Mon Aug 01 14:46:25.895716 2022] [mpm_winnt:notice] [pid 6272:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 01 17:57:45.131377 2022] [mpm_winnt:notice] [pid 4252:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 01 17:57:47.147370 2022] [mpm_winnt:notice] [pid 6272:tid 400] AH00364: Child: All worker threads have exited.
+[Mon Aug 01 17:57:47.162995 2022] [mpm_winnt:notice] [pid 4252:tid 384] AH00430: Parent: Child process 6272 exited successfully.
+[Tue Aug 02 11:25:59.637186 2022] [mpm_winnt:notice] [pid 4312:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Aug 02 11:25:59.637186 2022] [mpm_winnt:notice] [pid 4312:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Aug 02 11:25:59.637186 2022] [core:notice] [pid 4312:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 02 11:25:59.638190 2022] [mpm_winnt:notice] [pid 4312:tid 384] AH00418: Parent: Created child process 6228
+[Tue Aug 02 11:26:00.039189 2022] [mpm_winnt:notice] [pid 6228:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 02 17:59:48.475830 2022] [mpm_winnt:notice] [pid 4312:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 02 17:59:50.491684 2022] [mpm_winnt:notice] [pid 6228:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Aug 02 17:59:50.507313 2022] [mpm_winnt:notice] [pid 4312:tid 384] AH00430: Parent: Child process 6228 exited successfully.
+[Wed Aug 03 12:50:13.248406 2022] [mpm_winnt:notice] [pid 4204:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Aug 03 12:50:13.248406 2022] [mpm_winnt:notice] [pid 4204:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Aug 03 12:50:13.248406 2022] [core:notice] [pid 4204:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 03 12:50:13.250403 2022] [mpm_winnt:notice] [pid 4204:tid 384] AH00418: Parent: Created child process 5696
+[Wed Aug 03 12:50:13.647400 2022] [mpm_winnt:notice] [pid 5696:tid 424] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 03 18:00:01.075501 2022] [mpm_winnt:notice] [pid 4204:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 03 18:00:03.107111 2022] [mpm_winnt:notice] [pid 5696:tid 424] AH00364: Child: All worker threads have exited.
+[Wed Aug 03 18:00:03.138358 2022] [mpm_winnt:notice] [pid 4204:tid 384] AH00430: Parent: Child process 5696 exited successfully.
+[Thu Aug 04 11:12:46.738677 2022] [mpm_winnt:notice] [pid 4168:tid 396] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Thu Aug 04 11:12:46.739676 2022] [mpm_winnt:notice] [pid 4168:tid 396] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Aug 04 11:12:46.739676 2022] [core:notice] [pid 4168:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 04 11:12:46.740676 2022] [mpm_winnt:notice] [pid 4168:tid 396] AH00418: Parent: Created child process 6104
+[Thu Aug 04 11:12:47.119676 2022] [mpm_winnt:notice] [pid 6104:tid 432] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 18:01:50.278419 2022] [mpm_winnt:notice] [pid 4168:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 18:01:52.294486 2022] [mpm_winnt:notice] [pid 6104:tid 432] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 18:01:52.325753 2022] [mpm_winnt:notice] [pid 4168:tid 396] AH00430: Parent: Child process 6104 exited successfully.
+[Fri Aug 05 13:34:45.264165 2022] [mpm_winnt:notice] [pid 3312:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Aug 05 13:34:45.264165 2022] [mpm_winnt:notice] [pid 3312:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Aug 05 13:34:45.264165 2022] [core:notice] [pid 3312:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 05 13:34:45.264165 2022] [mpm_winnt:notice] [pid 3312:tid 384] AH00418: Parent: Created child process 6232
+[Fri Aug 05 13:34:45.701665 2022] [mpm_winnt:notice] [pid 6232:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 08 16:41:24.889658 2022] [php:error] [pid 6232:tid 1128] [client ::1:56115] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Mon Aug 08 18:00:53.894128 2022] [mpm_winnt:notice] [pid 3312:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 08 18:00:55.909986 2022] [mpm_winnt:notice] [pid 6232:tid 400] AH00364: Child: All worker threads have exited.
+[Mon Aug 08 18:00:55.925612 2022] [mpm_winnt:notice] [pid 3312:tid 384] AH00430: Parent: Child process 6232 exited successfully.
+[Tue Aug 09 13:08:54.219497 2022] [mpm_winnt:notice] [pid 4100:tid 412] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Aug 09 13:08:54.219497 2022] [mpm_winnt:notice] [pid 4100:tid 412] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Aug 09 13:08:54.219497 2022] [core:notice] [pid 4100:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 09 13:08:54.219497 2022] [mpm_winnt:notice] [pid 4100:tid 412] AH00418: Parent: Created child process 6268
+[Tue Aug 09 13:08:54.610123 2022] [mpm_winnt:notice] [pid 6268:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 09 13:43:58.017229 2022] [php:error] [pid 6268:tid 1112] [client ::1:54810] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='\xd0\xb0\xd0\xb0\xd0\xb0', price='1', description='\xd0\xb0\xd0\xb0', category_id='3', created='2022-08-' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Tue Aug 09 17:56:20.340867 2022] [mpm_winnt:notice] [pid 4100:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 09 17:56:22.372630 2022] [mpm_winnt:notice] [pid 6268:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Aug 09 17:56:22.388257 2022] [mpm_winnt:notice] [pid 4100:tid 412] AH00430: Parent: Child process 6268 exited successfully.
+[Wed Aug 10 12:13:13.866925 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Aug 10 12:13:13.866925 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Aug 10 12:13:13.866925 2022] [core:notice] [pid 4316:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 10 12:13:13.868926 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00418: Parent: Created child process 6296
+[Wed Aug 10 12:13:14.355927 2022] [mpm_winnt:notice] [pid 6296:tid 404] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 17:58:45.690286 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 17:58:47.721892 2022] [mpm_winnt:notice] [pid 6296:tid 404] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 17:58:47.753172 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00430: Parent: Child process 6296 exited successfully.
+[Tue Aug 16 10:34:04.578703 2022] [mpm_winnt:notice] [pid 4168:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Aug 16 10:34:04.578703 2022] [mpm_winnt:notice] [pid 4168:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Aug 16 10:34:04.578703 2022] [core:notice] [pid 4168:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 16 10:34:04.580703 2022] [mpm_winnt:notice] [pid 4168:tid 384] AH00418: Parent: Created child process 6324
+[Tue Aug 16 10:34:05.036709 2022] [mpm_winnt:notice] [pid 6324:tid 440] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 16 10:41:23.662487 2022] [php:error] [pid 6324:tid 1120] [client ::1:55394] PHP Parse error:  syntax error, unexpected token "<" in C:\\localhost\\php-oop-mysql\\layout_header.php on line 29, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 10:42:00.153189 2022] [php:error] [pid 6324:tid 1116] [client ::1:55395] PHP Parse error:  syntax error, unexpected token "<" in C:\\localhost\\php-oop-mysql\\layout_header.php on line 28, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 10:42:00.941084 2022] [php:error] [pid 6324:tid 1116] [client ::1:55395] PHP Parse error:  syntax error, unexpected token "<" in C:\\localhost\\php-oop-mysql\\layout_header.php on line 28, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 10:42:09.037183 2022] [php:error] [pid 6324:tid 1120] [client ::1:55402] PHP Parse error:  syntax error, unexpected token "<" in C:\\localhost\\php-oop-mysql\\layout_header.php on line 28, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 10:42:09.609937 2022] [php:error] [pid 6324:tid 1120] [client ::1:55402] PHP Parse error:  syntax error, unexpected token "<" in C:\\localhost\\php-oop-mysql\\layout_header.php on line 28, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:17:11.104172 2022] [php:error] [pid 6324:tid 1116] [client ::1:56359] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\\localhost\\php-oop-mysql\\config\\database.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\layout_footer.php(14): Database->insert()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:18:25.470997 2022] [php:error] [pid 6324:tid 1120] [client ::1:56369] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\\localhost\\php-oop-mysql\\config\\database.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\layout_footer.php(14): Database->insert()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:18:26.270585 2022] [php:error] [pid 6324:tid 1120] [client ::1:56369] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\\localhost\\php-oop-mysql\\config\\database.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\layout_footer.php(14): Database->insert()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:21:03.185989 2022] [php:error] [pid 6324:tid 1116] [client ::1:56391] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'php_oop.db_task' doesn't exist in C:\\localhost\\php-oop-mysql\\config\\database.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(27): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:21:07.207180 2022] [php:error] [pid 6324:tid 1116] [client ::1:56391] PHP Parse error:  syntax error, unexpected token "<" in C:\\localhost\\php-oop-mysql\\layout_header.php on line 28, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:21:22.725075 2022] [php:error] [pid 6324:tid 1116] [client ::1:56400] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'php_oop.db_task' doesn't exist in C:\\localhost\\php-oop-mysql\\config\\database.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(27): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:21:25.899426 2022] [php:error] [pid 6324:tid 1116] [client ::1:56400] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'php_oop.db_task' doesn't exist in C:\\localhost\\php-oop-mysql\\config\\database.php:27\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(27): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 27, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:24:01.951830 2022] [php:error] [pid 6324:tid 1120] [client ::1:56428] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '346' for key 'db_task.PRIMARY' in C:\\localhost\\php-oop-mysql\\config\\database.php:26\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(26): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 26, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:24:03.706898 2022] [php:error] [pid 6324:tid 1120] [client ::1:56428] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '346' for key 'db_task.PRIMARY' in C:\\localhost\\php-oop-mysql\\config\\database.php:26\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(26): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 26, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 11:24:04.120982 2022] [php:error] [pid 6324:tid 1120] [client ::1:56428] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '346' for key 'db_task.PRIMARY' in C:\\localhost\\php-oop-mysql\\config\\database.php:26\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(26): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 26, referer: http://localhost/php-oop-mysql/
+[Tue Aug 16 17:45:47.410093 2022] [mpm_winnt:notice] [pid 4168:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 16 17:45:49.426498 2022] [mpm_winnt:notice] [pid 6324:tid 440] AH00364: Child: All worker threads have exited.
+[Tue Aug 16 17:45:49.457748 2022] [mpm_winnt:notice] [pid 4168:tid 384] AH00430: Parent: Child process 6324 exited successfully.
+[Tue Aug 16 17:46:13.359210 2022] [mpm_winnt:notice] [pid 3996:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Aug 16 17:46:13.359210 2022] [mpm_winnt:notice] [pid 3996:tid 400] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Aug 16 17:46:13.359210 2022] [core:notice] [pid 3996:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 16 17:46:13.361211 2022] [mpm_winnt:notice] [pid 3996:tid 400] AH00418: Parent: Created child process 5744
+[Tue Aug 16 17:46:13.908209 2022] [mpm_winnt:notice] [pid 5744:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 19 11:16:33.468363 2022] [php:error] [pid 5744:tid 1120] [client ::1:61595] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_task.categories' doesn't exist in C:\\localhost\\php-oop-mysql\\objects\\category.php:28\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\category.php(28): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(70): Category->read()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\category.php on line 28, referer: http://localhost/php-oop-mysql/
+[Fri Aug 19 11:16:37.425967 2022] [php:error] [pid 5744:tid 1120] [client ::1:61595] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 11:40:11.905505 2022] [php:error] [pid 5744:tid 1112] [client ::1:62633] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_task.categories' doesn't exist in C:\\localhost\\php-oop-mysql\\objects\\category.php:28\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\category.php(28): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(70): Category->read()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\category.php on line 28, referer: http://localhost/php-oop-mysql/
+[Fri Aug 19 11:52:45.909129 2022] [php:error] [pid 5744:tid 1120] [client ::1:62763] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'php_oop.db_task' doesn't exist in C:\\localhost\\php-oop-mysql\\config\\database.php:26\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\config\\database.php(26): PDO->query('insert into db_...')\n#1 C:\\localhost\\php-oop-mysql\\layout_footer.php(15): Database->insert()\n#2 C:\\localhost\\php-oop-mysql\\create_product.php(97): require_once('C:\\\\localhost\\\\ph...')\n#3 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\config\\database.php on line 26, referer: http://localhost/php-oop-mysql/
+[Fri Aug 19 11:53:54.898033 2022] [php:error] [pid 5744:tid 1112] [client ::1:62778] PHP Fatal error:  Uncaught Error: Call to undefined method Database::insert() in C:\\localhost\\php-oop-mysql\\layout_footer.php:15\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\create_product.php(97): require_once()\n#1 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\layout_footer.php on line 15, referer: http://localhost/php-oop-mysql/
+[Fri Aug 19 11:54:10.436553 2022] [php:error] [pid 5744:tid 1120] [client ::1:62779] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 11:54:19.095239 2022] [php:error] [pid 5744:tid 1112] [client ::1:62786] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='\xd0\x9f', price='111', description='\xd0\xb0\xd0\xb0\xd0\xb0', category_id='3', created='2022-08-' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 11:56:31.623779 2022] [php:error] [pid 5744:tid 1120] [client ::1:62808] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='\xd0\x9f', price='111', description='\xd0\xb0\xd0\xb0\xd0\xb0', category_id='3', created='2022-08-' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:44\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(44): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 44, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 11:58:07.312039 2022] [php:error] [pid 5744:tid 1112] [client ::1:62827] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 12:03:02.769484 2022] [php:error] [pid 5744:tid 1120] [client ::1:62971] script 'C:/localhost/php-oop-mysql/index.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 12:18:44.164562 2022] [php:error] [pid 5744:tid 1112] [client ::1:63269] PHP Parse error:  syntax error, unexpected identifier "table", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\index.php on line 43, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 12:18:47.013420 2022] [php:error] [pid 5744:tid 1112] [client ::1:63269] PHP Parse error:  syntax error, unexpected identifier "table", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\index.php on line 43, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 13:19:23.145472 2022] [php:error] [pid 5744:tid 1120] [client ::1:64077] PHP Parse error:  syntax error, unexpected identifier "table", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\index.php on line 40, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 13:22:18.268167 2022] [php:error] [pid 5744:tid 1112] [client ::1:64106] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='\xd0\xa2\xd0\xb5\xd1\x81\xd1\x82', price='200', description='\xd0\xa2\xd0\xb5\xd1\x81\xd1\x82', category_id='1', created='' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:61\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(61): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 61, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 13:40:25.307439 2022] [php:error] [pid 5744:tid 1120] [client ::1:64423] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='\xd0\xa2\xd0\xb5\xd1\x81\xd1\x82', price='200', description='\xd0\xa2\xd0\xb5\xd1\x81\xd1\x82', category_id='1', created='' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:61\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(61): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 61, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:24:57.982644 2022] [php:error] [pid 5744:tid 1112] [client ::1:65386] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='\xd0\xa2\xd0\xb5\xd1\x81\xd1\x82', price='200', description='\xd0\xa2\xd0\xb5\xd1\x81\xd1\x82', category_id='1', created='' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:61\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(61): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 61, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:25:02.604363 2022] [php:error] [pid 5744:tid 1112] [client ::1:65386] PHP Parse error:  syntax error, unexpected identifier "glyphicon", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\index.php on line 70, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:25:47.225419 2022] [php:error] [pid 5744:tid 1120] [client ::1:65387] script 'C:/localhost/php-oop-mysql/read_product.php' not found or unable to stat, referer: http://localhost/php-oop-mysql/index.php
+[Fri Aug 19 14:28:49.839771 2022] [php:error] [pid 5744:tid 1112] [client ::1:65432] PHP Parse error:  syntax error, unexpected identifier "active", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\paging.php on line 28, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:32:22.501653 2022] [php:error] [pid 5744:tid 1120] [client ::1:65457] PHP Parse error:  syntax error, unexpected identifier "active", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\paging.php on line 28, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:32:37.463484 2022] [php:error] [pid 5744:tid 1112] [client ::1:65458] PHP Parse error:  syntax error, unexpected identifier "page", expecting "," or ";" in C:\\localhost\\php-oop-mysql\\paging.php on line 33, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:32:51.039882 2022] [php:error] [pid 5744:tid 1120] [client ::1:65462] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "," or ";" in C:\\localhost\\php-oop-mysql\\paging.php on line 40, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 14:55:59.400312 2022] [php:error] [pid 5744:tid 1112] [client ::1:49281] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name='h', price='5', description='h', category_id='1', created='2022-08-19 11:55' at line 1 in C:\\localhost\\php-oop-mysql\\objects\\product.php:61\nStack trace:\n#0 C:\\localhost\\php-oop-mysql\\objects\\product.php(61): PDOStatement->execute()\n#1 C:\\localhost\\php-oop-mysql\\create_product.php(34): Product->create()\n#2 {main}\n  thrown in C:\\localhost\\php-oop-mysql\\objects\\product.php on line 61, referer: http://localhost/php-oop-mysql/create_product.php
+[Fri Aug 19 18:05:00.059244 2022] [mpm_winnt:notice] [pid 3996:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 19 18:05:02.075262 2022] [mpm_winnt:notice] [pid 5744:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Aug 19 18:05:02.106417 2022] [mpm_winnt:notice] [pid 3996:tid 400] AH00430: Parent: Child process 5744 exited successfully.
+[Fri Aug 19 18:05:24.173147 2022] [mpm_winnt:notice] [pid 4188:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Aug 19 18:05:24.173147 2022] [mpm_winnt:notice] [pid 4188:tid 400] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Aug 19 18:05:24.173147 2022] [core:notice] [pid 4188:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 19 18:05:24.173147 2022] [mpm_winnt:notice] [pid 4188:tid 400] AH00418: Parent: Created child process 5336
+[Fri Aug 19 18:05:24.673146 2022] [mpm_winnt:notice] [pid 5336:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 23 17:58:36.223320 2022] [mpm_winnt:notice] [pid 4188:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 23 17:58:38.239319 2022] [mpm_winnt:notice] [pid 5336:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Aug 23 17:58:38.270583 2022] [mpm_winnt:notice] [pid 4188:tid 400] AH00430: Parent: Child process 5336 exited successfully.
+[Wed Aug 24 08:54:02.977176 2022] [mpm_winnt:notice] [pid 4124:tid 148] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Aug 24 08:54:02.977176 2022] [mpm_winnt:notice] [pid 4124:tid 148] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Aug 24 08:54:02.977176 2022] [core:notice] [pid 4124:tid 148] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 24 08:54:02.977176 2022] [mpm_winnt:notice] [pid 4124:tid 148] AH00418: Parent: Created child process 6152
+[Wed Aug 24 08:54:03.399051 2022] [mpm_winnt:notice] [pid 6152:tid 432] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 30 09:19:56.227589 2022] [mpm_winnt:notice] [pid 4124:tid 148] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 30 09:19:58.259182 2022] [mpm_winnt:notice] [pid 6152:tid 432] AH00364: Child: All worker threads have exited.
+[Tue Aug 30 09:19:58.321588 2022] [mpm_winnt:notice] [pid 4124:tid 148] AH00430: Parent: Child process 6152 exited successfully.
+[Tue Aug 30 09:22:46.739662 2022] [mpm_winnt:notice] [pid 3908:tid 164] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Aug 30 09:22:46.740664 2022] [mpm_winnt:notice] [pid 3908:tid 164] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Aug 30 09:22:46.740664 2022] [core:notice] [pid 3908:tid 164] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 30 09:22:46.741664 2022] [mpm_winnt:notice] [pid 3908:tid 164] AH00418: Parent: Created child process 5712
+[Tue Aug 30 09:22:47.236664 2022] [mpm_winnt:notice] [pid 5712:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 30 18:31:16.948169 2022] [mpm_winnt:notice] [pid 3908:tid 164] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 30 18:31:18.979629 2022] [mpm_winnt:notice] [pid 5712:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Aug 30 18:31:18.995256 2022] [mpm_winnt:notice] [pid 3908:tid 164] AH00430: Parent: Child process 5712 exited successfully.
+[Thu Sep 01 11:19:23.867505 2022] [mpm_winnt:notice] [pid 4188:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Thu Sep 01 11:19:23.867505 2022] [mpm_winnt:notice] [pid 4188:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Sep 01 11:19:23.867505 2022] [core:notice] [pid 4188:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 01 11:19:23.867505 2022] [mpm_winnt:notice] [pid 4188:tid 388] AH00418: Parent: Created child process 6340
+[Thu Sep 01 11:19:24.242504 2022] [mpm_winnt:notice] [pid 6340:tid 432] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 05 18:40:46.880804 2022] [mpm_winnt:notice] [pid 4188:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 05 18:40:48.912352 2022] [mpm_winnt:notice] [pid 6340:tid 432] AH00364: Child: All worker threads have exited.
+[Mon Sep 05 18:40:48.974762 2022] [mpm_winnt:notice] [pid 4188:tid 388] AH00430: Parent: Child process 6340 exited successfully.
+[Tue Sep 06 12:59:59.858060 2022] [mpm_winnt:notice] [pid 4304:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Sep 06 12:59:59.858060 2022] [mpm_winnt:notice] [pid 4304:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Sep 06 12:59:59.858060 2022] [core:notice] [pid 4304:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 06 12:59:59.859058 2022] [mpm_winnt:notice] [pid 4304:tid 388] AH00418: Parent: Created child process 6284
+[Tue Sep 06 13:00:00.255060 2022] [mpm_winnt:notice] [pid 6284:tid 412] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 06 18:03:22.415189 2022] [mpm_winnt:notice] [pid 4304:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 06 18:03:24.431193 2022] [mpm_winnt:notice] [pid 6284:tid 412] AH00364: Child: All worker threads have exited.
+[Tue Sep 06 18:03:24.462439 2022] [mpm_winnt:notice] [pid 4304:tid 388] AH00430: Parent: Child process 6284 exited successfully.
+[Wed Sep 07 09:41:26.215952 2022] [mpm_winnt:notice] [pid 3536:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Sep 07 09:41:26.215952 2022] [mpm_winnt:notice] [pid 3536:tid 392] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Sep 07 09:41:26.215952 2022] [core:notice] [pid 3536:tid 392] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Sep 07 09:41:26.215952 2022] [mpm_winnt:notice] [pid 3536:tid 392] AH00418: Parent: Created child process 5604
+[Wed Sep 07 09:41:26.637827 2022] [mpm_winnt:notice] [pid 5604:tid 404] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 08 18:08:48.670906 2022] [mpm_winnt:notice] [pid 3536:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 08 18:08:50.686947 2022] [mpm_winnt:notice] [pid 5604:tid 404] AH00364: Child: All worker threads have exited.
+[Thu Sep 08 18:08:50.749348 2022] [mpm_winnt:notice] [pid 3536:tid 392] AH00430: Parent: Child process 5604 exited successfully.
+[Fri Sep 09 14:55:21.025658 2022] [mpm_winnt:notice] [pid 4276:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Sep 09 14:55:21.025658 2022] [mpm_winnt:notice] [pid 4276:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Sep 09 14:55:21.025658 2022] [core:notice] [pid 4276:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 09 14:55:21.025658 2022] [mpm_winnt:notice] [pid 4276:tid 384] AH00418: Parent: Created child process 6288
+[Fri Sep 09 14:55:21.478783 2022] [mpm_winnt:notice] [pid 6288:tid 428] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 09 17:33:09.358724 2022] [mpm_winnt:notice] [pid 4276:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 09 17:33:11.390075 2022] [mpm_winnt:notice] [pid 6288:tid 428] AH00364: Child: All worker threads have exited.
+[Fri Sep 09 17:33:11.421320 2022] [mpm_winnt:notice] [pid 4276:tid 384] AH00430: Parent: Child process 6288 exited successfully.
+[Fri Sep 09 17:34:21.278845 2022] [mpm_winnt:notice] [pid 4076:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Sep 09 17:34:21.278845 2022] [mpm_winnt:notice] [pid 4076:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Sep 09 17:34:21.278845 2022] [core:notice] [pid 4076:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 09 17:34:21.279845 2022] [mpm_winnt:notice] [pid 4076:tid 384] AH00418: Parent: Created child process 6156
+[Fri Sep 09 17:34:21.747842 2022] [mpm_winnt:notice] [pid 6156:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 09 17:43:37.546263 2022] [mpm_winnt:notice] [pid 4076:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 09 17:43:39.577610 2022] [mpm_winnt:notice] [pid 6156:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Sep 09 17:43:39.593235 2022] [mpm_winnt:notice] [pid 4076:tid 384] AH00430: Parent: Child process 6156 exited successfully.
+[Mon Sep 12 17:42:00.387921 2022] [mpm_winnt:notice] [pid 3612:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Sep 12 17:42:00.388922 2022] [mpm_winnt:notice] [pid 3612:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Sep 12 17:42:00.388922 2022] [core:notice] [pid 3612:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 12 17:42:00.389922 2022] [mpm_winnt:notice] [pid 3612:tid 388] AH00418: Parent: Created child process 6312
+[Mon Sep 12 17:42:00.791921 2022] [mpm_winnt:notice] [pid 6312:tid 416] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 12 17:53:37.170734 2022] [mpm_winnt:notice] [pid 3612:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 12 17:53:39.186889 2022] [mpm_winnt:notice] [pid 6312:tid 416] AH00364: Child: All worker threads have exited.
+[Mon Sep 12 17:53:39.202514 2022] [mpm_winnt:notice] [pid 3612:tid 388] AH00430: Parent: Child process 6312 exited successfully.
+[Tue Sep 13 14:33:11.806746 2022] [mpm_winnt:notice] [pid 4164:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Sep 13 14:33:11.807745 2022] [mpm_winnt:notice] [pid 4164:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Sep 13 14:33:11.807745 2022] [core:notice] [pid 4164:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 13 14:33:11.808746 2022] [mpm_winnt:notice] [pid 4164:tid 388] AH00418: Parent: Created child process 5812
+[Tue Sep 13 14:33:12.199746 2022] [mpm_winnt:notice] [pid 5812:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 13 18:46:59.365534 2022] [mpm_winnt:notice] [pid 4164:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 13 18:47:01.381395 2022] [mpm_winnt:notice] [pid 5812:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Sep 13 18:47:01.412644 2022] [mpm_winnt:notice] [pid 4164:tid 388] AH00430: Parent: Child process 5812 exited successfully.
+[Wed Sep 14 09:18:52.868791 2022] [mpm_winnt:notice] [pid 4160:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Sep 14 09:18:52.868791 2022] [mpm_winnt:notice] [pid 4160:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Sep 14 09:18:52.868791 2022] [core:notice] [pid 4160:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Sep 14 09:18:52.868791 2022] [mpm_winnt:notice] [pid 4160:tid 388] AH00418: Parent: Created child process 6184
+[Wed Sep 14 09:18:53.239424 2022] [mpm_winnt:notice] [pid 6184:tid 416] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 14 19:48:36.266542 2022] [mpm_winnt:notice] [pid 4160:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 14 19:48:38.313513 2022] [mpm_winnt:notice] [pid 6184:tid 416] AH00364: Child: All worker threads have exited.
+[Wed Sep 14 19:48:38.344762 2022] [mpm_winnt:notice] [pid 4160:tid 388] AH00430: Parent: Child process 6184 exited successfully.
+[Wed Sep 14 19:49:03.175231 2022] [mpm_winnt:notice] [pid 3948:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Sep 14 19:49:03.175231 2022] [mpm_winnt:notice] [pid 3948:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Sep 14 19:49:03.175231 2022] [core:notice] [pid 3948:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Sep 14 19:49:03.175231 2022] [mpm_winnt:notice] [pid 3948:tid 384] AH00418: Parent: Created child process 5556
+[Wed Sep 14 19:49:03.550232 2022] [mpm_winnt:notice] [pid 5556:tid 416] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 15 18:11:13.191546 2022] [mpm_winnt:notice] [pid 3948:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 15 18:11:15.207469 2022] [mpm_winnt:notice] [pid 5556:tid 416] AH00364: Child: All worker threads have exited.
+[Thu Sep 15 18:11:15.238791 2022] [mpm_winnt:notice] [pid 3948:tid 384] AH00430: Parent: Child process 5556 exited successfully.
+[Fri Sep 16 14:53:33.730095 2022] [mpm_winnt:notice] [pid 4224:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Sep 16 14:53:33.731097 2022] [mpm_winnt:notice] [pid 4224:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Sep 16 14:53:33.731097 2022] [core:notice] [pid 4224:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 16 14:53:33.732096 2022] [mpm_winnt:notice] [pid 4224:tid 388] AH00418: Parent: Created child process 6284
+[Fri Sep 16 14:53:34.187096 2022] [mpm_winnt:notice] [pid 6284:tid 424] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 16 17:54:57.302403 2022] [mpm_winnt:notice] [pid 4224:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 16 17:54:59.318257 2022] [mpm_winnt:notice] [pid 6284:tid 424] AH00364: Child: All worker threads have exited.
+[Fri Sep 16 17:54:59.349507 2022] [mpm_winnt:notice] [pid 4224:tid 388] AH00430: Parent: Child process 6284 exited successfully.
+[Mon Sep 19 09:05:13.132444 2022] [mpm_winnt:notice] [pid 4300:tid 144] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Sep 19 09:05:13.132444 2022] [mpm_winnt:notice] [pid 4300:tid 144] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Sep 19 09:05:13.132444 2022] [core:notice] [pid 4300:tid 144] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 19 09:05:13.132444 2022] [mpm_winnt:notice] [pid 4300:tid 144] AH00418: Parent: Created child process 6296
+[Mon Sep 19 09:05:13.507443 2022] [mpm_winnt:notice] [pid 6296:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 20 18:11:19.216181 2022] [mpm_winnt:notice] [pid 4300:tid 144] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 20 18:11:21.232206 2022] [mpm_winnt:notice] [pid 6296:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Sep 20 18:11:21.294712 2022] [mpm_winnt:notice] [pid 4300:tid 144] AH00430: Parent: Child process 6296 exited successfully.
+[Tue Sep 20 18:11:47.955933 2022] [mpm_winnt:notice] [pid 3812:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Sep 20 18:11:47.955933 2022] [mpm_winnt:notice] [pid 3812:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Sep 20 18:11:47.955933 2022] [core:notice] [pid 3812:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 20 18:11:47.956933 2022] [mpm_winnt:notice] [pid 3812:tid 384] AH00418: Parent: Created child process 5736
+[Tue Sep 20 18:11:48.546930 2022] [mpm_winnt:notice] [pid 5736:tid 400] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 22 18:01:33.720203 2022] [mpm_winnt:notice] [pid 3812:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 22 18:01:35.751686 2022] [mpm_winnt:notice] [pid 5736:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Sep 22 18:01:35.782971 2022] [mpm_winnt:notice] [pid 3812:tid 384] AH00430: Parent: Child process 5736 exited successfully.
+[Fri Sep 23 11:36:19.191010 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Sep 23 11:36:19.191010 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Sep 23 11:36:19.191010 2022] [core:notice] [pid 4316:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 23 11:36:19.191010 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00418: Parent: Created child process 6024
+[Fri Sep 23 11:36:19.769128 2022] [mpm_winnt:notice] [pid 6024:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 23 11:54:28.141549 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 23 11:54:30.172789 2022] [mpm_winnt:notice] [pid 6024:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Sep 23 11:54:30.188416 2022] [mpm_winnt:notice] [pid 4316:tid 384] AH00430: Parent: Child process 6024 exited successfully.
+[Fri Sep 23 11:54:52.980550 2022] [mpm_winnt:notice] [pid 4160:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Sep 23 11:54:52.980550 2022] [mpm_winnt:notice] [pid 4160:tid 392] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Sep 23 11:54:52.980550 2022] [core:notice] [pid 4160:tid 392] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 23 11:54:52.980550 2022] [mpm_winnt:notice] [pid 4160:tid 392] AH00418: Parent: Created child process 6176
+[Fri Sep 23 11:54:53.433674 2022] [mpm_winnt:notice] [pid 6176:tid 440] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 23 14:54:51.459954 2022] [php:error] [pid 6176:tid 1120] [client 127.0.0.1:54651] PHP Parse error:  syntax error, unexpected end of file, expecting "," or ";" in C:\\localhost\\mvc\\index.php on line 40
+[Fri Sep 23 14:56:21.779823 2022] [php:error] [pid 6176:tid 1120] [client 127.0.0.1:54761] PHP Parse error:  Unclosed '{' on line 21 in C:\\localhost\\mvc\\index.php on line 40
+[Fri Sep 23 16:40:59.316161 2022] [php:error] [pid 6176:tid 1120] [client 127.0.0.1:58912] script 'C:/localhost/mvc/mvc.php' not found or unable to stat, referer: http://localhost/mvc/index.php
+[Fri Sep 23 16:41:56.714686 2022] [php:error] [pid 6176:tid 1120] [client 127.0.0.1:58920] PHP Parse error:  syntax error, unexpected token "=" in C:\\localhost\\mvc\\index.php on line 6
+[Fri Sep 23 16:44:17.395637 2022] [php:error] [pid 6176:tid 1120] [client 127.0.0.1:58945] script 'C:/localhost/mvc/mvc.php' not found or unable to stat, referer: http://localhost/mvc/index.php
+[Fri Sep 23 17:16:39.069384 2022] [mpm_winnt:notice] [pid 4160:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 23 17:16:41.085264 2022] [mpm_winnt:notice] [pid 6176:tid 440] AH00364: Child: All worker threads have exited.
+[Fri Sep 23 17:16:41.116414 2022] [mpm_winnt:notice] [pid 4160:tid 392] AH00430: Parent: Child process 6176 exited successfully.
+[Mon Sep 26 15:22:07.310256 2022] [mpm_winnt:notice] [pid 4184:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Sep 26 15:22:07.341502 2022] [mpm_winnt:notice] [pid 4184:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Sep 26 15:22:07.341502 2022] [core:notice] [pid 4184:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 26 15:22:07.341502 2022] [mpm_winnt:notice] [pid 4184:tid 384] AH00418: Parent: Created child process 5164
+[Mon Sep 26 15:22:07.872756 2022] [mpm_winnt:notice] [pid 5164:tid 432] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 26 18:45:04.939823 2022] [mpm_winnt:notice] [pid 4184:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 26 18:45:06.986794 2022] [mpm_winnt:notice] [pid 5164:tid 432] AH00364: Child: All worker threads have exited.
+[Mon Sep 26 18:45:07.049195 2022] [mpm_winnt:notice] [pid 4184:tid 384] AH00430: Parent: Child process 5164 exited successfully.
+[Fri Sep 30 14:44:35.517245 2022] [mpm_winnt:notice] [pid 4232:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Sep 30 14:44:35.517245 2022] [mpm_winnt:notice] [pid 4232:tid 404] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Sep 30 14:44:35.517245 2022] [core:notice] [pid 4232:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 30 14:44:35.517245 2022] [mpm_winnt:notice] [pid 4232:tid 404] AH00418: Parent: Created child process 6052
+[Fri Sep 30 14:44:36.048494 2022] [mpm_winnt:notice] [pid 6052:tid 408] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 30 17:05:16.088210 2022] [mpm_winnt:notice] [pid 4232:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 30 17:05:18.104487 2022] [mpm_winnt:notice] [pid 6052:tid 408] AH00364: Child: All worker threads have exited.
+[Fri Sep 30 17:05:18.120114 2022] [mpm_winnt:notice] [pid 4232:tid 404] AH00430: Parent: Child process 6052 exited successfully.
+[Mon Oct 03 11:05:26.159368 2022] [mpm_winnt:notice] [pid 4128:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Oct 03 11:05:26.159368 2022] [mpm_winnt:notice] [pid 4128:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Oct 03 11:05:26.159368 2022] [core:notice] [pid 4128:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 03 11:05:26.159368 2022] [mpm_winnt:notice] [pid 4128:tid 384] AH00418: Parent: Created child process 4556
+[Mon Oct 03 11:05:26.581241 2022] [mpm_winnt:notice] [pid 4556:tid 420] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 03 11:49:18.294210 2022] [php:error] [pid 4556:tid 1140] [client ::1:58757] script 'C:/localhost/mvc/mvc.php' not found or unable to stat, referer: http://localhost/mvc/index.php
+[Mon Oct 03 17:25:36.977411 2022] [php:error] [pid 4556:tid 1116] [client ::1:55111] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Database::__construct(), 0 passed in C:\\localhost\\mvc\\index.php on line 3 and exactly 1 expected in C:\\localhost\\mvc\\Database.php:12\nStack trace:\n#0 C:\\localhost\\mvc\\index.php(3): Database->__construct()\n#1 {main}\n  thrown in C:\\localhost\\mvc\\Database.php on line 12
+[Mon Oct 03 17:26:24.168742 2022] [php:error] [pid 4556:tid 1104] [client ::1:55112] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in C:\\localhost\\mvc\\Database.php:20\nStack trace:\n#0 C:\\localhost\\mvc\\Database.php(20): mysqli->query('SELECT * FROM m...')\n#1 C:\\localhost\\mvc\\index.php(4): Database->select()\n#2 {main}\n  thrown in C:\\localhost\\mvc\\Database.php on line 20
+[Mon Oct 03 17:37:14.010689 2022] [php:error] [pid 4556:tid 1116] [client ::1:55553] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\\localhost\\mvc\\index.php:3\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\mvc\\index.php on line 3, referer: http://localhost/mvc/index.php/ff/sdh
+[Mon Oct 03 17:37:14.682221 2022] [php:error] [pid 4556:tid 1116] [client ::1:55553] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\\localhost\\mvc\\index.php:3\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\mvc\\index.php on line 3, referer: http://localhost/mvc/index.php/ff/sdh
+[Mon Oct 03 17:44:09.714704 2022] [php:error] [pid 4556:tid 1104] [client ::1:55814] PHP Fatal error:  Uncaught ArgumentCountError: mysqli::query() expects at least 1 argument, 0 given in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query()\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 17:46:54.868164 2022] [php:error] [pid 4556:tid 1116] [client ::1:55913] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1)' at line 1 in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query('INSERt INTO mvc...')\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 17:47:50.729177 2022] [php:error] [pid 4556:tid 1104] [client ::1:55914] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@bk.ru, 1)' at line 1 in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query('INSERt INTO mvc...')\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 17:48:06.260468 2022] [php:error] [pid 4556:tid 1116] [client ::1:55947] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@bk.ru, 1)' at line 1 in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query('INSERt INTO mvc...')\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 17:48:07.467489 2022] [php:error] [pid 4556:tid 1116] [client ::1:55947] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@bk.ru, 1)' at line 1 in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query('INSERt INTO mvc...')\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 17:48:41.954280 2022] [php:error] [pid 4556:tid 1104] [client ::1:55958] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.f.', '.egor@bk.ru.', '.1.')' at line 1 in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query('INSERt INTO mvc...')\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 17:49:52.874192 2022] [php:error] [pid 4556:tid 1116] [client ::1:56019] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''f', 'egor@bk.ru', '1')' at line 1 in C:\\localhost\\mvc\\DatabaseModel.php:23\nStack trace:\n#0 C:\\localhost\\mvc\\DatabaseModel.php(23): mysqli->query('INSERt INTO mvc...')\n#1 C:\\localhost\\mvc\\add.php(6): DatabaseModel->add('f', 'egor@bk.ru', '1')\n#2 {main}\n  thrown in C:\\localhost\\mvc\\DatabaseModel.php on line 23, referer: http://localhost/mvc/index.php?username=E&login=E&email=egor%40bk.ru&password=1
+[Mon Oct 03 18:01:25.192915 2022] [mpm_winnt:notice] [pid 4128:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 03 18:01:27.208912 2022] [mpm_winnt:notice] [pid 4556:tid 420] AH00364: Child: All worker threads have exited.
+[Mon Oct 03 18:01:27.240163 2022] [mpm_winnt:notice] [pid 4128:tid 384] AH00430: Parent: Child process 4556 exited successfully.
+[Tue Oct 04 10:34:10.631383 2022] [mpm_winnt:notice] [pid 4184:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 04 10:34:10.631383 2022] [mpm_winnt:notice] [pid 4184:tid 400] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 04 10:34:10.631383 2022] [core:notice] [pid 4184:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 04 10:34:10.632381 2022] [mpm_winnt:notice] [pid 4184:tid 400] AH00418: Parent: Created child process 6260
+[Tue Oct 04 10:34:11.061382 2022] [mpm_winnt:notice] [pid 6260:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 04 14:53:08.974537 2022] [mpm_winnt:notice] [pid 4184:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 04 14:53:10.990812 2022] [mpm_winnt:notice] [pid 6260:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Oct 04 14:53:11.006440 2022] [mpm_winnt:notice] [pid 4184:tid 400] AH00430: Parent: Child process 6260 exited successfully.
+[Thu Oct 06 10:05:03.343367 2022] [mpm_winnt:notice] [pid 4160:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Thu Oct 06 10:05:03.344366 2022] [mpm_winnt:notice] [pid 4160:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Oct 06 10:05:03.344366 2022] [core:notice] [pid 4160:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Oct 06 10:05:03.345367 2022] [mpm_winnt:notice] [pid 4160:tid 384] AH00418: Parent: Created child process 8
+[Thu Oct 06 10:05:03.986370 2022] [mpm_winnt:notice] [pid 8:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 11 14:59:12.226815 2022] [mpm_winnt:notice] [pid 4160:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 11 14:59:14.240847 2022] [mpm_winnt:notice] [pid 8:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Oct 11 14:59:14.284580 2022] [mpm_winnt:notice] [pid 4160:tid 384] AH00430: Parent: Child process 8 exited successfully.
+[Tue Oct 11 14:59:16.588802 2022] [mpm_winnt:notice] [pid 3100:tid 396] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 11 14:59:16.589804 2022] [mpm_winnt:notice] [pid 3100:tid 396] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 11 14:59:16.589804 2022] [core:notice] [pid 3100:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 11 14:59:16.590803 2022] [mpm_winnt:notice] [pid 3100:tid 396] AH00418: Parent: Created child process 11824
+[Tue Oct 11 14:59:16.859804 2022] [mpm_winnt:notice] [pid 11824:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 11 15:04:26.576700 2022] [mpm_winnt:notice] [pid 3100:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 11 15:04:28.591989 2022] [mpm_winnt:notice] [pid 11824:tid 436] AH00364: Child: All worker threads have exited.
+[Tue Oct 11 15:04:28.632557 2022] [mpm_winnt:notice] [pid 3100:tid 396] AH00430: Parent: Child process 11824 exited successfully.
+[Tue Oct 11 15:04:31.424652 2022] [mpm_winnt:notice] [pid 12396:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 11 15:04:31.424652 2022] [mpm_winnt:notice] [pid 12396:tid 408] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 11 15:04:31.424652 2022] [core:notice] [pid 12396:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 11 15:04:31.425665 2022] [mpm_winnt:notice] [pid 12396:tid 408] AH00418: Parent: Created child process 7000
+[Tue Oct 11 15:04:31.676586 2022] [mpm_winnt:notice] [pid 7000:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 11 15:48:42.398034 2022] [core:warn] [pid 8940:tid 400] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 11 15:48:42.417960 2022] [mpm_winnt:notice] [pid 8940:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 11 15:48:42.417960 2022] [mpm_winnt:notice] [pid 8940:tid 400] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 11 15:48:42.417960 2022] [core:notice] [pid 8940:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 11 15:48:42.418946 2022] [mpm_winnt:notice] [pid 8940:tid 400] AH00418: Parent: Created child process 6296
+[Tue Oct 11 15:48:42.670937 2022] [mpm_winnt:notice] [pid 6296:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 11 16:48:57.501945 2022] [php:notice] [pid 6296:tid 1112] [client ::1:51697] [error] Uncaught PHP Exception Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException: "No route found for "GET http://localhost/quick_tour/public/" (from "http://localhost/quick_tour/")" at C:\\localhost\\quick_tour\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php line 128\r\n, referer: http://localhost/quick_tour/
+[Tue Oct 11 16:50:45.531399 2022] [php:notice] [pid 6296:tid 1116] [client ::1:51771] [error] Uncaught PHP Exception Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException: "No route found for "GET http://localhost/quick_tour/public/" (from "http://localhost/quick_tour/")" at C:\\localhost\\quick_tour\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php line 128\r\n, referer: http://localhost/quick_tour/
+[Tue Oct 11 16:51:05.532025 2022] [php:notice] [pid 6296:tid 1112] [client ::1:51778] [error] Uncaught PHP Exception Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException: "No route found for "GET http://localhost/quick_tour/public/" (from "http://localhost/quick_tour/")" at C:\\localhost\\quick_tour\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php line 128\r\n, referer: http://localhost/quick_tour/
+[Tue Oct 11 16:52:37.326029 2022] [php:notice] [pid 6296:tid 1116] [client ::1:51842] [error] Uncaught PHP Exception Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException: "No route found for "GET http://localhost/quick_tour/public/" (from "http://localhost/quick_tour/")" at C:\\localhost\\quick_tour\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php line 128\r\n, referer: http://localhost/quick_tour/
+[Tue Oct 11 16:54:42.790043 2022] [php:notice] [pid 6296:tid 1112] [client ::1:51869] [error] Uncaught PHP Exception Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException: "No route found for "GET http://localhost/quick_tour/public/" (from "http://localhost/quick_tour/")" at C:\\localhost\\quick_tour\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php line 128\r\n, referer: http://localhost/quick_tour/
+[Tue Oct 11 18:02:36.710765 2022] [mpm_winnt:notice] [pid 8940:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 11 18:02:38.742251 2022] [mpm_winnt:notice] [pid 6296:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Oct 11 18:02:38.757876 2022] [mpm_winnt:notice] [pid 8940:tid 400] AH00430: Parent: Child process 6296 exited successfully.
+[Wed Oct 12 15:16:03.722477 2022] [mpm_winnt:notice] [pid 4288:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Oct 12 15:16:03.722477 2022] [mpm_winnt:notice] [pid 4288:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Oct 12 15:16:03.722477 2022] [core:notice] [pid 4288:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 12 15:16:03.722477 2022] [mpm_winnt:notice] [pid 4288:tid 384] AH00418: Parent: Created child process 6388
+[Wed Oct 12 15:16:04.113149 2022] [mpm_winnt:notice] [pid 6388:tid 460] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 12 15:45:14.843569 2022] [mpm_winnt:notice] [pid 4288:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 12 15:45:16.874357 2022] [mpm_winnt:notice] [pid 6388:tid 460] AH00364: Child: All worker threads have exited.
+[Wed Oct 12 15:45:16.919044 2022] [mpm_winnt:notice] [pid 4288:tid 384] AH00430: Parent: Child process 6388 exited successfully.
+[Wed Oct 12 16:03:11.776707 2022] [mpm_winnt:notice] [pid 9384:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Oct 12 16:03:11.777707 2022] [mpm_winnt:notice] [pid 9384:tid 408] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Oct 12 16:03:11.777707 2022] [core:notice] [pid 9384:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 12 16:03:11.778710 2022] [mpm_winnt:notice] [pid 9384:tid 408] AH00418: Parent: Created child process 8964
+[Wed Oct 12 16:03:12.047708 2022] [mpm_winnt:notice] [pid 8964:tid 416] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 13 18:01:14.485916 2022] [mpm_winnt:notice] [pid 9384:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 13 18:01:16.501787 2022] [mpm_winnt:notice] [pid 8964:tid 416] AH00364: Child: All worker threads have exited.
+[Thu Oct 13 18:01:16.532979 2022] [mpm_winnt:notice] [pid 9384:tid 408] AH00430: Parent: Child process 8964 exited successfully.
+[Fri Oct 14 13:20:34.695476 2022] [mpm_winnt:notice] [pid 4152:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Fri Oct 14 13:20:34.695476 2022] [mpm_winnt:notice] [pid 4152:tid 404] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Oct 14 13:20:34.695476 2022] [core:notice] [pid 4152:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 14 13:20:34.695476 2022] [mpm_winnt:notice] [pid 4152:tid 404] AH00418: Parent: Created child process 6332
+[Fri Oct 14 13:20:35.132777 2022] [mpm_winnt:notice] [pid 6332:tid 408] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 18 13:17:09.530032 2022] [mpm_winnt:notice] [pid 4152:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 18 13:17:11.546515 2022] [mpm_winnt:notice] [pid 6332:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Oct 18 13:17:11.568785 2022] [mpm_winnt:notice] [pid 4152:tid 404] AH00430: Parent: Child process 6332 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 18 13:17:15.465685 2022] [mpm_winnt:notice] [pid 9944:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 18 13:17:15.465685 2022] [mpm_winnt:notice] [pid 9944:tid 416] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 18 13:17:15.465685 2022] [core:notice] [pid 9944:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 18 13:17:15.466685 2022] [mpm_winnt:notice] [pid 9944:tid 416] AH00418: Parent: Created child process 8484
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 18 13:17:15.737717 2022] [mpm_winnt:notice] [pid 8484:tid 424] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 18 13:36:33.411650 2022] [core:warn] [pid 4036:tid 384] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 18 13:36:33.792138 2022] [mpm_winnt:notice] [pid 4036:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 18 13:36:33.792138 2022] [mpm_winnt:notice] [pid 4036:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 18 13:36:33.792138 2022] [core:notice] [pid 4036:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 18 13:36:33.793139 2022] [mpm_winnt:notice] [pid 4036:tid 384] AH00418: Parent: Created child process 6108
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 18 13:36:34.287138 2022] [mpm_winnt:notice] [pid 6108:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 18 13:59:26.631841 2022] [mpm_winnt:notice] [pid 4036:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 18 13:59:28.657077 2022] [mpm_winnt:notice] [pid 6108:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Oct 18 13:59:28.692678 2022] [mpm_winnt:notice] [pid 4036:tid 384] AH00430: Parent: Child process 6108 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 18 14:04:16.096013 2022] [mpm_winnt:notice] [pid 4064:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 18 14:04:16.096013 2022] [mpm_winnt:notice] [pid 4064:tid 416] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 18 14:04:16.096013 2022] [core:notice] [pid 4064:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 18 14:04:16.096013 2022] [mpm_winnt:notice] [pid 4064:tid 416] AH00418: Parent: Created child process 8124
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 18 14:04:16.377117 2022] [mpm_winnt:notice] [pid 8124:tid 448] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 18 18:02:16.395237 2022] [mpm_winnt:notice] [pid 4064:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 18 18:02:18.426736 2022] [mpm_winnt:notice] [pid 8124:tid 448] AH00364: Child: All worker threads have exited.
+[Tue Oct 18 18:02:18.457990 2022] [mpm_winnt:notice] [pid 4064:tid 416] AH00430: Parent: Child process 8124 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Oct 19 12:56:56.922062 2022] [mpm_winnt:notice] [pid 4256:tid 144] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Wed Oct 19 12:56:56.922062 2022] [mpm_winnt:notice] [pid 4256:tid 144] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Oct 19 12:56:56.922062 2022] [core:notice] [pid 4256:tid 144] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 19 12:56:56.923061 2022] [mpm_winnt:notice] [pid 4256:tid 144] AH00418: Parent: Created child process 6132
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Oct 19 12:56:57.470060 2022] [mpm_winnt:notice] [pid 6132:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 25 14:23:11.465149 2022] [mpm_winnt:notice] [pid 4256:tid 144] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 25 14:23:13.512260 2022] [mpm_winnt:notice] [pid 6132:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Oct 25 14:23:13.574660 2022] [mpm_winnt:notice] [pid 4256:tid 144] AH00430: Parent: Child process 6132 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 14:23:43.966216 2022] [mpm_winnt:notice] [pid 3764:tid 296] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 25 14:23:43.966216 2022] [mpm_winnt:notice] [pid 3764:tid 296] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 25 14:23:43.966216 2022] [core:notice] [pid 3764:tid 296] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 25 14:23:43.966216 2022] [mpm_winnt:notice] [pid 3764:tid 296] AH00418: Parent: Created child process 6252
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 14:23:44.331144 2022] [mpm_winnt:notice] [pid 6252:tid 432] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 25 17:04:01.989070 2022] [mpm_winnt:notice] [pid 3764:tid 296] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 25 17:04:04.005062 2022] [mpm_winnt:notice] [pid 6252:tid 432] AH00364: Child: All worker threads have exited.
+[Tue Oct 25 17:04:04.020688 2022] [mpm_winnt:notice] [pid 3764:tid 296] AH00430: Parent: Child process 6252 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 17:04:27.814782 2022] [mpm_winnt:notice] [pid 4140:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Oct 25 17:04:27.814782 2022] [mpm_winnt:notice] [pid 4140:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 25 17:04:27.814782 2022] [core:notice] [pid 4140:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 25 17:04:27.815782 2022] [mpm_winnt:notice] [pid 4140:tid 384] AH00418: Parent: Created child process 6348
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 17:04:28.236780 2022] [mpm_winnt:notice] [pid 6348:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 01 14:44:49.966184 2022] [mpm_winnt:notice] [pid 4140:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 01 14:44:51.997592 2022] [mpm_winnt:notice] [pid 6348:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Nov 01 14:44:52.059994 2022] [mpm_winnt:notice] [pid 4140:tid 384] AH00430: Parent: Child process 6348 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Nov 01 14:45:22.250722 2022] [mpm_winnt:notice] [pid 3828:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Tue Nov 01 14:45:22.250722 2022] [mpm_winnt:notice] [pid 3828:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Nov 01 14:45:22.250722 2022] [core:notice] [pid 3828:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Nov 01 14:45:22.250722 2022] [mpm_winnt:notice] [pid 3828:tid 384] AH00418: Parent: Created child process 6344
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Nov 01 14:45:22.628691 2022] [mpm_winnt:notice] [pid 6344:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 01 18:09:51.662189 2022] [mpm_winnt:notice] [pid 3828:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 01 18:09:53.724782 2022] [mpm_winnt:notice] [pid 6344:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Nov 01 18:09:53.802809 2022] [mpm_winnt:notice] [pid 3828:tid 384] AH00430: Parent: Child process 6344 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 14 09:47:38.954414 2022] [mpm_winnt:notice] [pid 3644:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Nov 14 09:47:38.954414 2022] [mpm_winnt:notice] [pid 3644:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Nov 14 09:47:38.954414 2022] [core:notice] [pid 3644:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 14 09:47:38.954414 2022] [mpm_winnt:notice] [pid 3644:tid 384] AH00418: Parent: Created child process 6532
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 14 09:47:39.465605 2022] [mpm_winnt:notice] [pid 6532:tid 444] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 14 19:24:54.796372 2022] [mpm_winnt:notice] [pid 3644:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 14 19:24:56.844048 2022] [mpm_winnt:notice] [pid 6532:tid 444] AH00364: Child: All worker threads have exited.
+[Mon Nov 14 19:24:56.906485 2022] [mpm_winnt:notice] [pid 3644:tid 384] AH00430: Parent: Child process 6532 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 14 19:25:21.646400 2022] [mpm_winnt:notice] [pid 3824:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Nov 14 19:25:21.646400 2022] [mpm_winnt:notice] [pid 3824:tid 392] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Nov 14 19:25:21.646400 2022] [core:notice] [pid 3824:tid 392] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 14 19:25:21.646400 2022] [mpm_winnt:notice] [pid 3824:tid 392] AH00418: Parent: Created child process 5840
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 14 19:25:22.044195 2022] [mpm_winnt:notice] [pid 5840:tid 432] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 16 18:04:53.654703 2022] [mpm_winnt:notice] [pid 3824:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 16 18:04:55.764212 2022] [mpm_winnt:notice] [pid 5840:tid 432] AH00364: Child: All worker threads have exited.
+[Wed Nov 16 18:04:55.811097 2022] [mpm_winnt:notice] [pid 3824:tid 392] AH00430: Parent: Child process 5840 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 21 10:18:20.096497 2022] [mpm_winnt:notice] [pid 4172:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Nov 21 10:18:20.096497 2022] [mpm_winnt:notice] [pid 4172:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Nov 21 10:18:20.096497 2022] [core:notice] [pid 4172:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 21 10:18:20.098498 2022] [mpm_winnt:notice] [pid 4172:tid 384] AH00418: Parent: Created child process 6416
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 21 10:18:20.567496 2022] [mpm_winnt:notice] [pid 6416:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 21 13:23:18.971628 2022] [php:warn] [pid 6416:tid 1184] [client ::1:63721] PHP Warning:  imagepng(./res/1669026198.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 22, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:23:18.972629 2022] [php:warn] [pid 6416:tid 1184] [client ::1:63721] PHP Warning:  readfile(./res/1669026198.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 27, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:24:00.220789 2022] [php:warn] [pid 6416:tid 1192] [client ::1:63723] PHP Warning:  imagepng(./res/1669026240.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 22, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:24:00.220789 2022] [php:warn] [pid 6416:tid 1192] [client ::1:63723] PHP Warning:  readfile(./res/1669026240.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 27, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:31:32.769832 2022] [php:warn] [pid 6416:tid 1184] [client ::1:63842] PHP Warning:  imagepng(./res/1669026692.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 22, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:31:32.769832 2022] [php:warn] [pid 6416:tid 1184] [client ::1:63842] PHP Warning:  readfile(./res/1669026692.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 27, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:39:52.663231 2022] [mpm_winnt:notice] [pid 4172:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 21 13:39:54.710105 2022] [mpm_winnt:notice] [pid 6416:tid 400] AH00364: Child: All worker threads have exited.
+[Mon Nov 21 13:39:54.788226 2022] [mpm_winnt:notice] [pid 4172:tid 384] AH00430: Parent: Child process 6416 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 21 13:40:19.999049 2022] [mpm_winnt:notice] [pid 3764:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.8 configured -- resuming normal operations
+[Mon Nov 21 13:40:19.999049 2022] [mpm_winnt:notice] [pid 3764:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Nov 21 13:40:19.999049 2022] [core:notice] [pid 3764:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 21 13:40:19.999049 2022] [mpm_winnt:notice] [pid 3764:tid 384] AH00418: Parent: Created child process 5804
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Nov 21 13:40:20.358422 2022] [mpm_winnt:notice] [pid 5804:tid 416] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 21 13:41:28.016253 2022] [php:warn] [pid 5804:tid 1164] [client ::1:61879] PHP Warning:  imagepng(./res/1669027288.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 22, referer: http://localhost/localhost/index.php
+[Mon Nov 21 13:41:28.016253 2022] [php:warn] [pid 5804:tid 1164] [client ::1:61879] PHP Warning:  readfile(./res/1669027288.jpg): Failed to open stream: No such file or directory in C:\\localhost\\localhost\\ImageCreator.php on line 27, referer: http://localhost/localhost/index.php
+[Mon Nov 21 15:31:20.509220 2022] [php:error] [pid 5804:tid 1152] [client ::1:51977] script 'C:/localhost/mvc/src/signin.php' not found or unable to stat
+[Mon Nov 21 17:47:55.794644 2022] [php:warn] [pid 5804:tid 1152] [client ::1:58780] PHP Warning:  Undefined array key "name" in C:\\localhost\\mvc\\controller\\UserController.php on line 8, referer: http://localhost/mvc/
+[Mon Nov 21 17:48:13.296218 2022] [php:warn] [pid 5804:tid 1164] [client ::1:59037] PHP Warning:  Undefined array key "name" in C:\\localhost\\mvc\\controller\\UserController.php on line 8, referer: http://localhost/mvc/
