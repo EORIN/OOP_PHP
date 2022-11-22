@@ -1,5 +1,7 @@
 <?php
 
+require './DB.php';
+
 class UserModel
 {
     private $name = '';
@@ -9,6 +11,7 @@ class UserModel
      */
     public function getName()
     {
+
         return $this->name;
     }
 
